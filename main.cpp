@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 
 	if (argc == 2) {
 		songSearch.readIn(argv[1]);
-        	songSearch.search();
+        //songSearch.search();
 	}
 	else {
 		cout << "Usage: songsearch database.txt\n";

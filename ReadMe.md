@@ -12,8 +12,9 @@ Class: COMP15
 Purpose:
 To make a database of songs where you can search for a word and get the top 10
 songs that have the most appearance of that word in the lyrics. The database
-should be capabable of scaling to relatively larege sizes. Tested and was fast
-with a database of over 170,000 songs.
+should be capabable of scaling to relatively larege sizes. It takes the program
+approximately 3.7 seconds to read in a database of 13300 songs on my 2.9 GHz Intel
+Core i5 machine, and negligable time to search said database.
 
 Included Files:
 main.cpp - contains the main for the program
@@ -28,7 +29,7 @@ How to Compile:
 Use included Makefile. The command "make songsearch" compiles the program.
 
 How to Run:
-
+The command "./songsearch <database>" will run the program
 
 Data Structures:
 I have three structs: indexWithFreq which stores the index that a word is in 
