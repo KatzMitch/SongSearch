@@ -9,8 +9,8 @@
 Purpose:
 To make a database of songs where you can search for a word and get the top 10
 songs that have the most appearance of that word in the lyrics. The database
-should be capabable of expanding to enormous sizes, we're using over 170,000 
-songs.
+should be capabable of scaling to relatively larege sizes. Tested and was fast
+with a database of over 170,000 songs.
 
 Included Files:
 main.cpp - contains the main for the program
@@ -18,11 +18,14 @@ songSearch.h - the header file. Includes a definition for the Database class
 songSearch.cpp - the implementation file for the Database class
 hashfunc.h - hash function header file (courtesy of Bob Jenkins)
 hashfunc.cpp - hash function implementation file (courtsey of Bob Jenkins)
-readme.txt - this file
 Makefile - use to compile program
+13300Songs.txt - Sample input file
 
 How to Compile:
 Use included Makefile. The command "make songsearch" compiles the program.
+
+How to Run:
+
 
 Data Structures:
 I have three structs: indexWithFreq which stores the index that a word is in 
