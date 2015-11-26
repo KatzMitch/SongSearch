@@ -1,8 +1,12 @@
 
 Name: Mitchell Katz
+
 Program: songsearch
+
 Assignment: Song Search Database
+
 Date: Tuesday, April 29, 2014
+
 Class: COMP15
 
 Purpose:
