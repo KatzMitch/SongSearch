@@ -1,10 +1,9 @@
-//***************************************************************************//
-//Name: Mitchell Katz													*****//
-//Program: songsearch													*****//
-//Assignment: Song Search Database										*****//
-//Date: Tuesday, April 29, 2014											*****//
-//Class: COMP15															*****//
-//***************************************************************************//
+
+Name: Mitchell Katz
+Program: songsearch
+Assignment: Song Search Database
+Date: Tuesday, April 29, 2014
+Class: COMP15
 
 Purpose:
 To make a database of songs where you can search for a word and get the top 10
